@@ -47,6 +47,11 @@ print("Hello World")
 # price = 25
 # print(price > 10 and price < 30)
 
+# Everything in Python is an object of some class
+
+# x="1"
+# print(type(x))
+
 # Formatted Strings
 # price =25
 # temperature =30

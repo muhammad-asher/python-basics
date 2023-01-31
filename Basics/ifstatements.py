@@ -10,11 +10,12 @@
 #     print("its cold")
 
 # Exercise
+import weightconverter
 weight = int(input("Weight: "))
 unit = input("(K)g or (L)bs: ")
 if unit.upper() == 'K':
-    weight_converted = weight / 0.45
+    weight_converted = weightconverter.kg_to_lbs(weight)
     print(f"Weight in Lbs: {str(weight_converted)}")
 else:
-    weight_converted = weight * 0.45
+    weight_converted = weightconverter.lbs_to_kg(weight)
     print(f"Weight in kg: {str(weight_converted)}")
